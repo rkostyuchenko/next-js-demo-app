@@ -1,0 +1,22 @@
+.badge {
+  position: relative;
+  display: inline-flex;
+}
+
+.dot {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  box-sizing: border-box;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 4px;
+  color: var(--white);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  background-color: var(--orange);
+  border-radius: 9px;
+  user-select: none;
+}

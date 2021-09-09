@@ -1,0 +1,24 @@
+.header {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 24px 0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  padding: 0 48px;
+}
+
+.row:not(:first-child) {
+  margin-top: 24px;
+}
+
+.catalog {
+  margin-right: 48px;
+}
+
+.search {
+  flex-grow: 1;
+  margin-right: 48px;
+}

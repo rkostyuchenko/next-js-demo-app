@@ -1,0 +1,30 @@
+.input {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  vertical-align: top;
+  border: 2px solid var(--steel);
+  border-radius: 4px;
+}
+
+.control {
+  box-sizing: border-box;
+  width: 100%;
+  font-family: inherit;
+  border: 0;
+}
+
+.control:focus {
+  outline: 0;
+}
+
+.m {
+  padding: 0 10px;
+}
+
+.m .control {
+  height: 32px;
+  font-size: 16px;
+  line-height: 32px;
+}
